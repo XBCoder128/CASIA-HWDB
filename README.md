@@ -1,6 +1,15 @@
 # CASIA-HWDB
 针对离线中文手写数据集的学习
 
+# 使用库
+python == 3.6
+
+tensorflow == 2.0
+
+matplotlib
+
+numpy
+
 # 数据集
 数据集下载地址：http://www.nlpr.ia.ac.cn/databases/handwriting/Home.html
 
