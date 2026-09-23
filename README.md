@@ -1,3 +1,5 @@
+
+
 # CASIA-HWDB
 针对离线中文手写数据集的学习
 
@@ -46,7 +48,7 @@ numpy
 加载tfrecord
 
 # 如何训练
-首先将训练文件放入之前提到的文件夹，然后运行'python tfrecord_generate.py'
+首先将训练文件放入之前提到的文件夹，然后运行'python Word2Index.py'生成 W2I.Label，再运行'python tfrecord_generate.py'
 
 等待tfrecord生成完毕后，运行'python train.py'，如果有保存权重，每次训练前会优先读取权重，若要重新训练网络请先删除权重文件，默认为‘model.h5’
 
